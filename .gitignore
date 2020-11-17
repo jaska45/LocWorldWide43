@@ -1,5 +1,6 @@
 *.ntr
 *.nds
+*.pptx
 
 **/node_modules/
 **/bin/
