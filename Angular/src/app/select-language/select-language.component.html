@@ -1,0 +1,8 @@
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <label class="input-group-text" for="inputGroupSelect01" i18n>Current language</label>
+  </div>  
+  <select class="custom-select" (change)="onChange($event.target.value)">
+    <option *ngFor="let language of languages" value="{{language.id}}" [selected]="language.id == selected">{{language.name}} - {{language.native}}</option>
+  </select>
+</div>

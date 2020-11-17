@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Angular Localization Sample</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body class="m-3">
+  <h1>Localized Web Applications</h1>
+  <p>This is a landing page for localized and multilingual web application samples.</p>
+  <h2>Language specific URLs</h2>
+<p>You create a language specific pages for each language. There is a separate URL for each language.</p>
+  <table>
+    <tr>
+      <th class="text-center">English</th>
+      <th class="text-center">Finnish</th>
+      <th class="text-center">German</th>
+      <th class="text-center">French</th>
+      <th class="text-center">Japanese</th>
+    </tr>
+    <tr>
+      <td class="text-center"><a href="HTML/index.html"><img src="Images/flag_usa.png" alt="English application"></a></td>
+      <td class="text-center"><a href="HTML/fi/index.html"><img src="Images/flag_finland.png" alt="Finnish application"></a></td>
+      <td class="text-center"><a href="HTML/de/index.html"><img src="Images/flag_germany.png" alt="German application"></a></td>
+      <td class="text-center"><a href="HTML/fr/index.html"><img src="Images/flag_france.png" alt="French application"></a></td>
+      <td class="text-center"><a href="HTML/ja/index.html"><img src="Images/flag_japan.png" alt="Japanese application"></a></td>
+    </tr>
+    <tr>
+      <td class="p-2"><a href="HTML/index.html">www.sample.com</a></td>
+      <td class="p-2"><a href="HTML/fi/index.html">www.sample.com/fi</a></td>
+      <td class="p-2"><a href="HTML/de/index.html">www.sample.com/de</a></td>
+      <td class="p-2"><a href="HTML/fr/index.html">www.sample.com/fr</a></td>
+      <td class="p-2"><a href="HTML/ja/index.html">www.sample.com/ja</a></td>
+    </tr>
+  </table>
+  <h2>Single URL ASP.NET Core Application</h2>
+  <p>This uses ASP.NET Core that is a server side framework. You compile and deploy the application once, but the application selects the  language on runtime based on the Accept-Language HTTP header, location or cookie.</p>
+  <table>
+
+    <tr>
+      <td class="text-center"><a href="runtime/index.html"><img src="Images/earth.png" alt="English application"></a></td>
+    </tr>
+    <tr>
+      <td class="p-2"><a href="runtime/index.html">www.sample.com</a></td>
+    </tr>
+  </table>
+  <h2>Single URL Angular Application</h2>
+<p>This uses Angular that is a a client side framework. You compile and deploy the application once, but the application selects the language  on runtime. based on the Accept-Language HTTP header, location or the saved language.</p>
+  
+<table>
+    <tr>
+      <td class="text-center"><a href="runtime/index.html"><img src="Images/earth.png" alt="English application"></a></td>
+  </tr>
+    <tr>
+      <td class="p-2"><a href="runtime/index.html">www.sample.com</a></td>
+  </tr>
+  </table>
+
+</body>
+</html>

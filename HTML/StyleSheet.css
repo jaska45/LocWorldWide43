@@ -1,0 +1,74 @@
+body 
+{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  background: #f9f9f9;
+}
+
+h1 
+{
+  color: #006699;
+}
+
+table 
+{
+  border-left: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+  border-right: 1px solid #999999;
+  border-top: 1px solid #999999;
+  border-collapse: collapse;
+  border-spacing: 0px 0px;
+  background: white;
+}
+
+th 
+{
+  padding: 4px;
+  background: #006699;
+  color: white;
+  border-top: 1px solid #999999;
+  border-right: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+  border-left: 1px solid #999999;
+  white-space: nowrap;
+}
+
+td 
+{
+  padding: 4px;
+  border-top: 1px solid #999999;
+  border-right: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+  border-left: 1px solid #999999;
+}
+
+td.name 
+{
+  white-space: nowrap;
+  background: #eeeeee;
+}
+
+td.image 
+{
+  text-align: center;
+  white-space: nowrap;
+}
+
+td.player 
+{
+  white-space: nowrap;
+  text-align: right;
+  background: #eeeeee;
+  color: #606060;
+}
+
+td.origin 
+{
+  text-align: center;
+  white-space: nowrap;
+  background: #eeeeee;
+}
+
+td.description 
+{
+  background: #eeeeee;
+}

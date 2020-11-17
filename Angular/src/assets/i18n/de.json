@@ -1,0 +1,27 @@
+﻿{
+  "locale": "de",
+  "translations": {
+    "5607669932062416162": "Standard",
+    "1906223178634644636": "Entdeckte Sprache",
+    "5866254605255506989": "Englisch",
+    "861663369293303028": "Finnisch",
+    "1858110241312746425": "Deutsch",
+    "7633754075223722162": "Französisch",
+    "6924606686202701860": "Japanisch",
+    "6297074916169855794": "Aktuelle Sprache",
+    "3561837173133763041": "Fußball",
+    "3107061782700787220": "Fußball ist eine Sportart, die zwischen zwei Mannschaften von elf Spielern mit einem Kugelball gespielt wird.",
+    "8730014444392551030": "England",
+    "7308437632096977464": "Eishockey",
+    "1522474359000830033": "Eishockey ist eine Mannschaftssportart, bei der Eisläufer mit Stöcken einen Puck ins gegnerische Tor lenken.",
+    "3486679398271885916": "Kanada",
+    "5217306673498240951": "Basketball",
+    "5852237943118250891": "Basketball ist ein Mannschaftssport, bei dem zwei Mannschaften von fünf Spielern versuchen, Punkte zu sammeln, indem sie einen Ball durch einen Basketballkorb werfen und dabei eine Reihe von Regeln befolgen.",
+    "6133495983093212227": "Vereinigte Staaten",
+    "2552939657189377328": "Ski alpin",
+    "1485710080190614841": "Alpiner Ski ist der Sport oder die Nachbildung des Herunterrutschens schneebedeckter Hügel auf Skiern mit festen Fersen.",
+    "6321687538487059592": "Norwegen",
+    "513843037780139436": "Sport",
+    "6910932422025459839": "{VAR_PLURAL, plural, one {{INTERPOLATION} Spieler} other {{INTERPOLATION} Spieler}}"
+  }
+}

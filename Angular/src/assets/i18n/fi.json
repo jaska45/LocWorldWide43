@@ -1,0 +1,27 @@
+﻿{
+  "locale": "fi",
+  "translations": {
+    "5607669932062416162": "Oletus",
+    "1906223178634644636": "Havaittu kieli",
+    "5866254605255506989": "englanti",
+    "861663369293303028": "suomi",
+    "1858110241312746425": "saksa",
+    "7633754075223722162": "ranska",
+    "6924606686202701860": "japani",
+    "6297074916169855794": "Nykyinen kieli",
+    "3561837173133763041": "Jalkapallo",
+    "3107061782700787220": "Jalkapallo on urheilulaji, jossa kaksi yksitoistahenkistä joukkuetta pelaavat pallolla.",
+    "8730014444392551030": "Englanti",
+    "7308437632096977464": "Jääkiekko",
+    "1522474359000830033": "Jääkiekko on jäällä pelattava joukkuelaji, jossa luistelijat käyttävät mailaa saadakseen kiekon vastajoukkueen maaliin.",
+    "3486679398271885916": "Kanada",
+    "5217306673498240951": "Koripallo",
+    "5852237943118250891": "Koripallo on joukkuelaji, jossa kaksi viisihenkistä joukkuetta yrittää tehdä pisteitä heittämällä pallon korin läpi samalla noudattaen sääntöjä.",
+    "6133495983093212227": "Yhdysvallat",
+    "2552939657189377328": "Alppihiihto",
+    "1485710080190614841": "Alppihiihto on urheilu tai virkistyslaji, jossa lasketaan alas lumisia mäkiä suksilla, joissa on kiinteät kantapääsiteet.",
+    "6321687538487059592": "Norja",
+    "513843037780139436": "Urheilulajit",
+    "6910932422025459839": "{VAR_PLURAL, plural, one {{INTERPOLATION} pelaaja} other {{INTERPOLATION} pelaajaa}}"
+  }
+}

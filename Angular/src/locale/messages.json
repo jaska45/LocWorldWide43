@@ -1,0 +1,27 @@
+{
+  "locale": "en",
+  "translations": {
+    "5607669932062416162": "Default",
+    "1906223178634644636": "Detected language",
+    "5866254605255506989": "English",
+    "861663369293303028": "Finnish",
+    "1858110241312746425": "German",
+    "7633754075223722162": "French",
+    "6924606686202701860": "Japanese",
+    "6297074916169855794": "Current language",
+    "3561837173133763041": "Soccer",
+    "3107061782700787220": "Soccer is a sport played between two teams of eleven players with a spherical ball.",
+    "8730014444392551030": "England",
+    "7308437632096977464": "Ice hockey",
+    "1522474359000830033": "Ice hockey is a team sport played on ice, in which skaters use sticks to direct a puck into the opposing team's goal.",
+    "3486679398271885916": "Canada",
+    "5217306673498240951": "Basketball",
+    "5852237943118250891": "Basketball is a team sport in which two teams of five players try to score points by throwing a ball through the top of a basketball hoop while following a set of rules.",
+    "6133495983093212227": "United States",
+    "2552939657189377328": "Alpine skiing",
+    "1485710080190614841": "Alpine skiing is the sport or recreation of sliding down snow-covered hills on skis with fixed-heel bindings.",
+    "6321687538487059592": "Norway",
+    "513843037780139436": "Sports",
+    "6910932422025459839": "{VAR_PLURAL, plural, one {{INTERPOLATION} player} other {{INTERPOLATION} players}}"
+  }
+}

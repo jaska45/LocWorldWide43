@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project id="A03C1635-25B0-4391-A14F-68A37030F504" created="20201116T153005Z" lastmodified="20201116T181101Z" version="1.0.803" lockedrowcomplete="0" stringid="22">
+  <lang id="fi"/>
+  <lang id="de"/>
+  <lang id="fr"/>
+  <lang id="ja"/>
+  <node class="TAngularSource" name="messages.json" fullpath="E:\Conferences\LocWorld2020\Repo\Angular\src\locale\messages.json" original="en" encoding="windows-1252">
+    <row id="5607669932062416162" si="16" created="20201116T170940Z">
+      <value>Default</value>
+      <lang id="fi" rw="0" time="20201116T170944Z" fuzzy="1">Oletus</lang>
+      <lang id="de" st="4" or="6" rw="0" time="20201116T180814Z" fuzzy="5">Standard</lang>
+      <lang id="fr" st="1" or="6" rw="0" time="20201116T181052Z">Par défaut</lang>
+      <lang id="ja" rw="0" time="20201116T171312Z" fuzzy="100">デフォルト</lang>
+    </row>
+    <row id="1906223178634644636" si="22" created="20201116T171335Z">
+      <value>Detected language</value>
+      <lang id="fi" rw="0" time="20201116T171348Z" fuzzy="5">Havaittu kieli</lang>
+      <lang id="de" st="4" or="6" rw="0" time="20201116T180824Z" fuzzy="1">Entdeckte Sprache</lang>
+      <lang id="fr" st="1" or="6" rw="0" time="20201116T181052Z">Langue détectée</lang>
+      <lang id="ja" rw="0" time="20201116T171340Z" fuzzy="1">検出された言語</lang>
+    </row>
+    <row id="5866254605255506989" si="17" created="20201116T170940Z">
+      <value>English</value>
+      <lang id="fi" rw="0" time="20201116T170946Z" fuzzy="100">englanti</lang>
+      <lang id="de" st="4" or="6" rw="0" time="20201116T180826Z" fuzzy="5">Englisch</lang>
+      <lang id="fr" st="1" or="6" rw="0" time="20201116T181052Z">Anglais</lang>
+      <lang id="ja" rw="0" time="20201116T171033Z" fuzzy="5">英語</lang>
+    </row>
+    <row id="861663369293303028" si="18" created="20201116T170940Z">
+      <value>Finnish</value>
+      <lang id="fi" rw="0" time="20201116T170947Z" fuzzy="100">suomi</lang>
+      <lang id="de" st="4" or="6" rw="0" time="20201116T180828Z" fuzzy="5">Finnisch</lang>
+      <lang id="fr" st="1" or="6" rw="0" time="20201116T181052Z">Finnois</lang>
+      <lang id="ja" rw="0" time="20201116T171035Z" fuzzy="5">フィンランド語</lang>
+    </row>
+    <row id="1858110241312746425" si="19" created="20201116T170940Z">
+      <value>German</value>
+      <lang id="fi" rw="0" time="20201116T170949Z" fuzzy="100">saksa</lang>
+      <lang id="de" st="4" or="6" rw="0" time="20201116T180830Z" fuzzy="5">Deutsch</lang>
+      <lang id="fr" st="1" or="6" rw="0" time="20201116T181052Z">Allemand</lang>
+      <lang id="ja" rw="0" time="20201116T171039Z" fuzzy="5">ドイツ語</lang>
+    </row>
+    <row id="7633754075223722162" si="20" created="20201116T170940Z">
+      <value>French</value>
+      <lang id="fi" rw="0" time="20201116T170951Z" fuzzy="100">ranska</lang>
+      <lang id="de" st="4" or="6" rw="0" time="20201116T180838Z" fuzzy="5">Französisch</lang>
+      <lang id="fr" st="1" or="6" rw="0" time="20201116T181052Z">Français</lang>
+      <lang id="ja" rw="0" time="20201116T171041Z" fuzzy="1">フランス語</lang>
+    </row>
+    <row id="6924606686202701860" si="21" created="20201116T170940Z">
+      <value>Japanese</value>
+      <lang id="fi" rw="0" time="20201116T170953Z" fuzzy="100">japani</lang>
+      <lang id="de" st="4" or="6" rw="0" time="20201116T180840Z" fuzzy="5">Japanisch</lang>
+      <lang id="fr" st="1" or="6" rw="0" time="20201116T181052Z">Japonais</lang>
+      <lang id="ja" rw="0" time="20201116T171045Z" fuzzy="5">日本語</lang>
+    </row>
+    <row id="6297074916169855794" si="15" created="20201116T170621Z">
+      <value>Current language</value>
+      <lang id="fi" rw="0" time="20201116T170639Z" fuzzy="5">Nykyinen kieli</lang>
+      <lang id="de" st="4" or="6" rw="0" time="20201116T180848Z" fuzzy="5">Aktuelle Sprache</lang>
+      <lang id="fr" st="1" or="6" rw="0" time="20201116T181052Z">Langue actuelle</lang>
+      <lang id="ja" rw="0" time="20201116T170629Z" fuzzy="1">現在の言語</lang>
+    </row>
+    <row id="3561837173133763041" si="1">
+      <value>Soccer</value>
+      <lang id="fi" rw="0" time="20201116T153105Z" fuzzy="100">Jalkapallo</lang>
+      <lang id="de" st="4" or="5" rw="0" time="20201116T180800Z">Fußball</lang>
+      <lang id="fr" st="1" or="6" rw="0" time="20201116T181052Z">Soccer</lang>
+      <lang id="ja" rw="0" time="20201116T170216Z" fuzzy="100">サッカー</lang>
+    </row>
+    <row id="3107061782700787220" si="2">
+      <value>Soccer is a sport played between two teams of eleven players with a spherical ball.</value>
+      <lang id="fi" rw="0" time="20201116T153107Z" fuzzy="100">Jalkapallo on urheilulaji, jossa kaksi yksitoistahenkistä joukkuetta pelaavat pallolla.</lang>
+      <lang id="de" st="4" or="5" rw="0" time="20201116T180800Z">Fußball ist eine Sportart, die zwischen zwei Mannschaften von elf Spielern mit einem Kugelball gespielt wird.</lang>
+      <lang id="fr" st="1" or="6" rw="0" time="20201116T181052Z">Le football est un sport pratiqué entre deux équipes de onze joueurs avec un ballon sphérique.</lang>
+      <lang id="ja" rw="0" time="20201116T170221Z" fuzzy="1.92515988222801E-39">サッカーは球状のボールを持つ11人の選手の2つのチームの間で行われるスポーツです。</lang>
+    </row>
+    <row id="8730014444392551030" si="3">
+      <value>England</value>
+      <lang id="fi" rw="0" time="20201116T153109Z" fuzzy="100">Englanti</lang>
+      <lang id="de" st="4" or="5" rw="0" time="20201116T180800Z">England</lang>
+      <lang id="fr" st="1" or="6" rw="0" time="20201116T181052Z">Angleterre</lang>
+      <lang id="ja" rw="0" time="20201116T170221Z" fuzzy="1.92515988222801E-39">イングランド</lang>
+    </row>
+    <row id="7308437632096977464" si="4">
+      <value>Ice hockey</value>
+      <lang id="fi" rw="0" time="20201116T153112Z" fuzzy="100">Jääkiekko</lang>
+      <lang id="de" st="4" or="5" rw="0" time="20201116T180800Z">Eishockey</lang>
+      <lang id="fr" st="1" or="6" rw="0" time="20201116T181053Z">Hockey</lang>
+      <lang id="ja" rw="0" time="20201116T170221Z" fuzzy="1.92515988222801E-39">アイスホッケー</lang>
+    </row>
+    <row id="1522474359000830033" si="5">
+      <value>Ice hockey is a team sport played on ice, in which skaters use sticks to direct a puck into the opposing team's goal.</value>
+      <lang id="fi" rw="0" time="20201116T153117Z" fuzzy="1.92515988222801E-39">Jääkiekko on jäällä pelattava joukkuelaji, jossa luistelijat käyttävät mailaa saadakseen kiekon vastajoukkueen maaliin.</lang>
+      <lang id="de" st="4" or="5" rw="0" time="20201116T180800Z">Eishockey ist eine Mannschaftssportart, bei der Eisläufer mit Stöcken einen Puck ins gegnerische Tor lenken.</lang>
+      <lang id="fr" st="1" or="6" rw="0" time="20201116T181053Z">Le hockey sur glace est un sport d'équipe pratiqué sur la glace, dans lequel les patineurs utilisent des bâtons pour diriger une rondelle vers le but de l'équipe adverse.</lang>
+      <lang id="ja" rw="0" time="20201116T170221Z" fuzzy="1.92515988222801E-39">アイスホッケーは氷の上で行われるチームスポーツで、スケーターはスティックを使って相手チームのゴールにパックを向けます。</lang>
+    </row>
+    <row id="3486679398271885916" si="6">
+      <value>Canada</value>
+      <lang id="fi" rw="0" time="20201116T153117Z" fuzzy="1.92515988222801E-39">Kanada</lang>
+      <lang id="de" st="4" or="5" rw="0" time="20201116T180800Z">Kanada</lang>
+      <lang id="fr" st="1" or="6" rw="0" time="20201116T181053Z">Canada</lang>
+      <lang id="ja" rw="0" time="20201116T170221Z" fuzzy="1.92515988222801E-39">カナダ</lang>
+    </row>
+    <row id="5217306673498240951" si="7">
+      <value>Basketball</value>
+      <lang id="fi" rw="0" time="20201116T153117Z" fuzzy="1.92515988222801E-39">Koripallo</lang>
+      <lang id="de" st="4" or="5" rw="0" time="20201116T180800Z">Basketball</lang>
+      <lang id="fr" st="1" or="6" rw="0" time="20201116T181053Z">Basketball</lang>
+      <lang id="ja" rw="0" time="20201116T170221Z" fuzzy="1.92515988222801E-39">バスケット ボール</lang>
+    </row>
+    <row id="5852237943118250891" si="8">
+      <value>Basketball is a team sport in which two teams of five players try to score points by throwing a ball through the top of a basketball hoop while following a set of rules.</value>
+      <lang id="fi" rw="0" time="20201116T153117Z" fuzzy="1.92515988222801E-39">Koripallo on joukkuelaji, jossa kaksi viisihenkistä joukkuetta yrittää tehdä pisteitä heittämällä pallon korin läpi samalla noudattaen sääntöjä.</lang>
+      <lang id="de" st="4" or="5" rw="0" time="20201116T180800Z">Basketball ist ein Mannschaftssport, bei dem zwei Mannschaften von fünf Spielern versuchen, Punkte zu sammeln, indem sie einen Ball durch einen Basketballkorb werfen und dabei eine Reihe von Regeln befolgen.</lang>
+      <lang id="fr" st="1" or="6" rw="0" time="20201116T181053Z">Le basket-ball est un sport d'équipe dans lequel deux équipes de cinq joueurs essaient de marquer des points en lançant une balle à travers le haut d'un cerceau de basketball tout en suivant un ensemble de règles.</lang>
+      <lang id="ja" rw="0" time="20201116T170221Z" fuzzy="1.92515988222801E-39">バスケットボールは、5人の選手の2つのチームが一連のルールに従いながら、バスケットボールフープの上にボールを投げることによってポイントを獲得しようとするチームスポーツです。</lang>
+    </row>
+    <row id="6133495983093212227" si="9">
+      <value>United States</value>
+      <lang id="fi" rw="0" time="20201116T153117Z" fuzzy="1.92515988222801E-39">Yhdysvallat</lang>
+      <lang id="de" st="4" or="5" rw="0" time="20201116T180800Z">Vereinigte Staaten</lang>
+      <lang id="fr" st="1" or="6" rw="0" time="20201116T181053Z">Etats Unis</lang>
+      <lang id="ja" rw="0" time="20201116T170221Z" fuzzy="1.92515988222801E-39">米国</lang>
+    </row>
+    <row id="2552939657189377328" si="10">
+      <value>Alpine skiing</value>
+      <lang id="fi" rw="0" time="20201116T153117Z" fuzzy="1.92515988222801E-39">Alppihiihto</lang>
+      <lang id="de" st="4" or="6" rw="0" time="20201116T180857Z" fuzzy="5">Ski alpin</lang>
+      <lang id="fr" st="1" or="6" rw="0" time="20201116T181053Z">Ski alpin</lang>
+      <lang id="ja" rw="0" time="20201116T170229Z" fuzzy="5">アルペンスキー</lang>
+    </row>
+    <row id="1485710080190614841" si="11">
+      <value>Alpine skiing is the sport or recreation of sliding down snow-covered hills on skis with fixed-heel bindings.</value>
+      <lang id="fi" rw="0" time="20201116T153117Z" fuzzy="1.92515988222801E-39">Alppihiihto on urheilu tai virkistyslaji, jossa lasketaan alas lumisia mäkiä suksilla, joissa on kiinteät kantapääsiteet.</lang>
+      <lang id="de" st="4" or="6" rw="0" time="20201116T180903Z" fuzzy="1">Alpiner Ski ist der Sport oder die Nachbildung des Herunterrutschens schneebedeckter Hügel auf Skiern mit festen Fersen.</lang>
+      <lang id="fr" st="1" or="6" rw="0" time="20201116T181053Z">Le ski alpin est le sport ou les loisirs de glisser sur des collines enneigées sur des skis avec des fixations à talons fixes.</lang>
+      <lang id="ja" rw="0" time="20201116T170236Z" fuzzy="1">アルペンスキーは、固定ヒールのバインディングを備えたスキーで、雪で覆われた丘を滑り降りるスポーツまたはレクリエーションです。</lang>
+    </row>
+    <row id="6321687538487059592" si="12">
+      <value>Norway</value>
+      <lang id="fi" rw="0" time="20201116T153117Z" fuzzy="1.92515988222801E-39">Norja</lang>
+      <lang id="de" st="4" or="6" rw="0" time="20201116T180905Z" fuzzy="5">Norwegen</lang>
+      <lang id="fr" st="1" or="6" rw="0" time="20201116T181054Z">Norvège</lang>
+      <lang id="ja" rw="0" time="20201116T170225Z" fuzzy="1.92515988222801E-39">ノルウェー</lang>
+    </row>
+    <row id="513843037780139436" si="13">
+      <value>Sports</value>
+      <lang id="fi" rw="0" time="20201116T153117Z" fuzzy="1.92515988222801E-39">Urheilulajit</lang>
+      <lang id="de" st="4" or="6" rw="0" time="20201116T180908Z" fuzzy="5">Sport</lang>
+      <lang id="fr" st="1" or="6" rw="0" time="20201116T181054Z">Sports</lang>
+      <lang id="ja" rw="0" time="20201116T170225Z" fuzzy="1.92515988222801E-39">スポーツ</lang>
+    </row>
+    <row id="6910932422025459839" class="TPatternRow" si="14">
+      <value>{0} players</value>
+      <pattern plural="pfOne">{0} player</pattern>
+      <lang id="fi" rw="0" time="20201116T153126Z">
+        <value>{0} pelaajaa</value>
+        <pattern plural="pfOne">{0} pelaaja</pattern>
+      </lang>
+      <lang id="de" st="4" or="6" rw="0" time="20201116T180918Z" fuzzy="5">
+        <value>{0} Spieler</value>
+        <pattern plural="pfOne">{0} Spieler</pattern>
+      </lang>
+      <lang id="fr" st="4" or="6" rw="0" time="20201116T181054Z">
+        <value>{0} joueurs</value>
+        <pattern plural="pfOne">{0} joueur</pattern>
+      </lang>
+      <lang id="ja" rw="0" time="20201116T170244Z" fuzzy="5">{0}選手</lang>
+    </row>
+    <configurations>
+      <configuration name="Default" dir="..\assets\i18n" localized="&lt;id&gt;.&lt;ext&gt;"/>
+    </configurations>
+  </node>
+  <terminology>
+    <shared>
+      <item name="Local" type="TSqliteTermbase"/>
+      <item name="Microsoft" type="TMicrosoftTerminologyServiceGlossary"/>
+    </shared>
+  </terminology>
+  <tm>
+    <shared>
+      <item name="Local" type="TSqliteTranslationMemory"/>
+      <item name="Microsoft" type="TMicrosoftTerminologyServiceMemory"/>
+    </shared>
+  </tm>
+  <mt optimizeusage="0">
+    <shared>
+      <item name="Amazon" type="TAmazonTranslate"/>
+      <item name="Microsoft" type="TMicrosoftTranslator"/>
+    </shared>
+  </mt>
+  <duplicates>
+  </duplicates>
+</project>

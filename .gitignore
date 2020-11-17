@@ -1,0 +1,14 @@
+*.ntr
+*.nds
+
+**/node_modules/
+**/bin/
+**/obj/
+**/packages/
+**/.vs/
+
+appsettings.json
+appsettings.*.json
+
+environment.ts
+environment.*.ts

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project id="A0653924-F416-4FCE-90E0-91889B36284F" created="20201115T035127Z" lastmodified="20201115T163604Z" version="1.0.803" lockedrowcomplete="0" stringid="34">
+  <lang id="fi"/>
+  <lang id="de"/>
+  <node class="TNetProjectSource" name="SportApp.csproj" fullpath="E:\Conferences\LocWorld2020\Demo\ASP.NET\Sport\SportApp.csproj" original="en" availableresources="[nrResx,nrManifest]" aspnetmethod="amScanAndCreate" netconfiguration="Debug|AnyCPU" aspnetcore="1" defaultresourcedir="Resources" clearresourcedir="1">
+    <netproperties version="core50"/>
+    <node class="TDirectoryFolder" name="Pages">
+      <node class="TResXNode" name="LanguageNames.resx">
+        <row id="English" si="1">
+          <value>English</value>
+          <lang id="fi" rw="0" time="20201115T035136Z" fuzzy="5">englanti</lang>
+        </row>
+        <row id="Estonian" si="2">
+          <value>Estonian</value>
+          <lang id="fi" rw="0" time="20201115T035139Z" fuzzy="5">viro</lang>
+        </row>
+        <row id="Finnish" si="3">
+          <value>Finnish</value>
+          <lang id="fi" rw="0" time="20201115T035141Z" fuzzy="5">suomi</lang>
+        </row>
+        <row id="French" si="4">
+          <value>French</value>
+          <lang id="fi" rw="0" time="20201115T035144Z" fuzzy="5">ranska</lang>
+        </row>
+        <row id="German" si="5">
+          <value>German</value>
+          <lang id="fi" rw="0" time="20201115T035146Z" fuzzy="5">saksa</lang>
+        </row>
+        <row id="Japanese" si="6">
+          <value>Japanese</value>
+          <lang id="fi" rw="0" time="20201115T035149Z" fuzzy="5">japani</lang>
+        </row>
+        <row id="Swedish" si="7">
+          <value>Swedish</value>
+          <lang id="fi" rw="0" time="20201115T035152Z" fuzzy="5">ruotsi</lang>
+        </row>
+      </node>
+    </node>
+    <node class="TDirectoryFolder" name="Resources">
+      <node class="TDirectoryFolder" name="Pages">
+        <node class="TResXNode" name="Index.resx">
+          <row id="Sports" si="8">
+            <value>Sports</value>
+            <lang id="fi" rw="0" time="20201115T035155Z" fuzzy="99">Urheilulajit</lang>
+            <lang id="de" st="4" or="6" rw="0" time="20201115T043339Z" fuzzy="1">Sport</lang>
+          </row>
+        </node>
+        <node class="TResXNode" name="IndexModel.resx" created="20201115T163152Z">
+          <row id="{plural, one {{0} player} other {{0} players}}" class="TPatternRow" si="30" scannedcomment="0: Number of players" created="20201115T163239Z">
+            <value>{0} players</value>
+            <pattern plural="pfOne">{0} player</pattern>
+            <lang id="fi" rw="0" time="20201115T163255Z" fuzzy="1">
+              <value>{0} pelaajaa</value>
+              <pattern plural="pfOne">{0} pelaaja</pattern>
+            </lang>
+          </row>
+          <row id="Soccer" si="18">
+            <value>Soccer</value>
+            <lang id="fi" rw="0" time="20201115T163259Z" fuzzy="100">Jalkapallo</lang>
+          </row>
+          <row id="Soccer is a sport played between two teams of eleven players with a spherical ball." si="31" created="20201115T163339Z">
+            <value>Soccer is a sport played between two teams of eleven players with a spherical ball.</value>
+            <lang id="fi" rw="0" time="20201115T163351Z" fuzzy="100">Jalkapallo on urheilulaji, jossa kaksi yksitoistahenkistä joukkuetta pelaavat pallolla.</lang>
+          </row>
+          <row id="England" si="20">
+            <value>England</value>
+            <lang id="fi" rw="0" time="20201115T163308Z" fuzzy="100">Englanti</lang>
+          </row>
+          <row id="Ice hockey" si="21">
+            <value>Ice hockey</value>
+            <lang id="fi" rw="0" time="20201115T163310Z" fuzzy="100">Jääkiekko</lang>
+          </row>
+          <row id="Ice hockey is a team sport played on ice, in which skaters use sticks to direct a puck into the opposing team's goal." si="32" created="20201115T163339Z">
+            <value>Ice hockey is a team sport played on ice, in which skaters use sticks to direct a puck into the opposing team's goal.</value>
+            <lang id="fi" rw="0" time="20201115T163353Z" fuzzy="100">Jääkiekko on jäällä pelattava joukkuelaji, jossa luistelijat käyttävät mailaa saadakseen kiekon vastajoukkueen maaliin.</lang>
+          </row>
+          <row id="Canada" si="23">
+            <value>Canada</value>
+            <lang id="fi" rw="0" time="20201115T163356Z" fuzzy="100">Kanada</lang>
+          </row>
+          <row id="Basketball" si="24">
+            <value>Basketball</value>
+            <lang id="fi" rw="0" time="20201115T163358Z" fuzzy="100">Koripallo</lang>
+          </row>
+          <row id="Basketball is a team sport in which two teams of five players try to score points by throwing a ball through the top of a basketball hoop while following a set of rules." si="33" created="20201115T163339Z">
+            <value>Basketball is a team sport in which two teams of five players try to score points by throwing a ball through the top of a basketball hoop while following a set of rules.</value>
+            <lang id="fi" rw="0" time="20201115T163400Z" fuzzy="100">Koripallo on joukkuelaji, jossa kaksi viisihenkistä joukkuetta yrittää tehdä pisteitä heittämällä pallon korin läpi samalla noudattaen sääntöjä.</lang>
+          </row>
+          <row id="United States" si="26">
+            <value>United States</value>
+            <lang id="fi" rw="0" time="20201115T163403Z" fuzzy="100">Yhdysvallat</lang>
+          </row>
+          <row id="Alpine skiing" si="27">
+            <value>Alpine skiing</value>
+            <lang id="fi" rw="0" time="20201115T163413Z" fuzzy="5">Alppihiihto</lang>
+          </row>
+          <row id="Alpine skiing is the sport or recreation of sliding down snow-covered hills on skis with fixed-heel bindings." si="34" created="20201115T163339Z">
+            <value>Alpine skiing is the sport or recreation of sliding down snow-covered hills on skis with fixed-heel bindings.</value>
+            <lang id="fi" rw="0" time="20201115T163540Z" fuzzy="1">Alppihiihto on urheilu tai virkistyslaji, jossa lasketaan alas lumisia mäkiä suksilla, joissa on kiinteät kantapääsiteet.</lang>
+          </row>
+          <row id="Norway" si="29">
+            <value>Norway</value>
+            <lang id="fi" rw="0" time="20201115T163417Z" fuzzy="1">Norja</lang>
+          </row>
+        </node>
+        <node class="TDirectoryFolder" name="Shared">
+          <node class="TResXNode" name="_LanguagePartial.resx">
+            <row id="Location based language: {0}" class="TPatternRow" si="14" scannedcomment="0: language name" created="20201115T040348Z">
+              <value>Location based language: {0}</value>
+              <lang id="fi" rw="0" time="20201115T040352Z" fuzzy="1">Sijaintiin perustuva kieli: {0}</lang>
+            </row>
+            <row id="Browser based language: {0}" class="TPatternRow" si="15" scannedcomment="0: language name" created="20201115T040348Z">
+              <value>Browser based language: {0}</value>
+              <lang id="fi" rw="0" time="20201115T040356Z" fuzzy="5">Selainpohjainen kieli: {0}</lang>
+            </row>
+            <row id="Language: " si="11">
+              <value>Language: </value>
+              <lang id="fi" rw="0" time="20201115T035208Z" fuzzy="5">Kieli: </lang>
+              <lang id="de" st="4" or="6" rw="0" time="20201115T043344Z" fuzzy="5">Sprache: </lang>
+            </row>
+            <row id="Save" si="12">
+              <value>Save</value>
+              <lang id="fi" rw="0" time="20201115T035210Z" fuzzy="5">Tallenna</lang>
+              <lang id="de" st="4" or="6" rw="0" time="20201115T043347Z" fuzzy="5">Speichern</lang>
+            </row>
+          </node>
+          <node class="TResXNode" name="_Layout.resx">
+            <row id="Sport" si="16" created="20201115T040348Z">
+              <value>Sport</value>
+              <lang id="fi" rw="0" time="20201115T040401Z" fuzzy="83.3333358764648">Urheilulajit</lang>
+            </row>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <terminology>
+    <shared>
+      <item name="Local" type="TSqliteTermbase"/>
+      <item name="Microsoft" type="TMicrosoftTerminologyServiceGlossary"/>
+    </shared>
+  </terminology>
+  <tm>
+    <shared>
+      <item name="Local" type="TSqliteTranslationMemory"/>
+      <item name="Microsoft" type="TMicrosoftTerminologyServiceMemory"/>
+    </shared>
+  </tm>
+  <mt optimizeusage="0">
+    <shared>
+      <item name="Amazon" type="TAmazonTranslate"/>
+      <item name="Microsoft" type="TMicrosoftTranslator"/>
+    </shared>
+  </mt>
+  <duplicates>
+  </duplicates>
+</project>

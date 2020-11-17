@@ -1,0 +1,13 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = Localizer["Sports"];
+}
+
+@foreach (var item in Model.Values)
+{
+  <h4 class="mt-4">@item.Name</h4>
+  <img class="my-1" src="~/images/@item.Image" />
+  <p>@Model.GetPlayers(item)</p>
+  <p>@item.Description</p>
+}

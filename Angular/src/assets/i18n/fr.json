@@ -1,0 +1,27 @@
+﻿{
+  "locale": "fr",
+  "translations": {
+    "5607669932062416162": "Par défaut",
+    "1906223178634644636": "Langue détectée",
+    "5866254605255506989": "Anglais",
+    "861663369293303028": "Finnois",
+    "1858110241312746425": "Allemand",
+    "7633754075223722162": "Français",
+    "6924606686202701860": "Japonais",
+    "6297074916169855794": "Langue actuelle",
+    "3561837173133763041": "Soccer",
+    "3107061782700787220": "Le football est un sport pratiqué entre deux équipes de onze joueurs avec un ballon sphérique.",
+    "8730014444392551030": "Angleterre",
+    "7308437632096977464": "Hockey",
+    "1522474359000830033": "Le hockey sur glace est un sport d'équipe pratiqué sur la glace, dans lequel les patineurs utilisent des bâtons pour diriger une rondelle vers le but de l'équipe adverse.",
+    "3486679398271885916": "Canada",
+    "5217306673498240951": "Basketball",
+    "5852237943118250891": "Le basket-ball est un sport d'équipe dans lequel deux équipes de cinq joueurs essaient de marquer des points en lançant une balle à travers le haut d'un cerceau de basketball tout en suivant un ensemble de règles.",
+    "6133495983093212227": "Etats Unis",
+    "2552939657189377328": "Ski alpin",
+    "1485710080190614841": "Le ski alpin est le sport ou les loisirs de glisser sur des collines enneigées sur des skis avec des fixations à talons fixes.",
+    "6321687538487059592": "Norvège",
+    "513843037780139436": "Sports",
+    "6910932422025459839": "{VAR_PLURAL, plural, one {{INTERPOLATION} joueur} other {{INTERPOLATION} joueurs}}"
+  }
+}
