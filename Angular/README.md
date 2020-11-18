@@ -1,27 +1,12 @@
-# Sport
+# Multilingual Angular Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1. The project uses the standard Angular internationalization and localization with adding the ability to load translations on runtime.
 
-## Development server
+The application loads translations on runtime. Before loading the translations, the application detects the active locale/language. The method is this.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1. If the user has previously selected the language, that language is used. The user interface contains a combo box where the user can select the language. By default, there is no selected language. In that case, the next rule is used.
+2. The application can try to detect the language(s) of the user by geolocating the user's IP address. The application uses [ipstack](https://ipstack.com/) API to geolocate the IP address. If you want to use this feature, you have to set the two parameters in the `environemtn.ts` file. First, set the `useGeolocation` parameter true and set the `ipStackKey` parameter to contains your ipstack access key. You can get a free key from [ipstack webpage](https://ipstack.com/).
 
-## Code scaffolding
+Now the application might have the locale or might not have the locale. In either way, it uses [Soluling's Angular library](https://github.com/soluling/I18N/tree/master/Library/Angular) to load the translations. If no locale was passed, the library gets the locale(s) from the browser. At this point, the library knows what locale(s) to use. The library tries to find a resource file matching the locale or one of the locale if many locales were detected. If a matching resource was found, the library reads it and returns the translations of the resource file. The application then passes the translations to Angular runtime turning the application to use the translations. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+All this is done in the `main.ts` file before bootstrapping the application. The rest of the application follows Angular's [internationalization guideline](https://angular.io/guide/i18n). You can read more about Angular localization from [here](https://www.soluling.com/Help/Angular/Index.htm).
