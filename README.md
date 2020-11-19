@@ -12,5 +12,5 @@ This repo contains the files for my *Localized Web Applications* session in [Loc
 
 [Soluling localization tool](https://www.soluling.com/) is used in all above samples.
 
-Hope to see you in LocWorldWide 43!
+Hope to see you in LocWorldWide 43 on January 27-28 2020!
 
