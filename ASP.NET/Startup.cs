@@ -58,7 +58,7 @@ namespace SportApp
       options.RequestCultureProviders.Add(new QueryStringRequestCultureProvider());
       options.RequestCultureProviders.Add(new CookieRequestCultureProvider());
 
-      if (SportModel.UseGeolocation)
+      if (SportModel.UseGeolocation && !string.IsNullOrEmpty(Locator.Key))
       {
         SportModel.IpRequestCultureProvider = new IpRequestCultureProvider();
         options.RequestCultureProviders.Add(SportModel.IpRequestCultureProvider);

@@ -1,12 +1,34 @@
 # Multilingual ASP.NET Core Application
 
-This project uses ASP.NET Core 5.0 Razor Pages.
+This project uses ASP.NET Core 5.0 Razor Pages. The application is multilingual, so it servers each user in her language if possible.  The application uses the [standard ASP.NET request localization](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/localization) where the locale detection has been modified a bit. The standard order is URL parameter, cookie, browser locale. Here we have an option to replace the browser locale with geolocation. The configuration file, `appsettings.json`, can have two properties: `UseGeolocation` and `IpStackKey`. To turn browser language off and geolocation on, set `UseGeolocation` to true and set `IpStackKey` to contains your personal ipstack API access key. You can get a free key from [ipstack webpage](https://ipstack.com/).
 
-The application loads translations on runtime. Before loading the translations, the application detects the active locale/language. The method is this.
+```json
+{
+  "UseGeolocation": true,
+  "IpStackKey": "<your_ipstack_key>"
+}
+```
 
-1. If the user has previously selected the language, that language is used. The user interface contains a combo box where the user can select the language. By default, there is no selected language. In that case, the next rule is used.
-2. The application can try to detect the language(s) of the user by geolocating the user's IP address. The application uses [ipstack](https://ipstack.com/) API to geolocate the IP address. If you want to use this feature, you have to set the two parameters in the `environemtn.ts` file. First, set the `useGeolocation` parameter true and set the `ipStackKey` parameter to contains your ipstack access key. You can get a free key from [ipstack webpage](https://ipstack.com/).
+During the middleware configuration, the application registers URL and cookie culture providers and then either an IP culture provider or an Accept-Language culture provider.
 
-Now the application might have the locale, or might not have the locale. In either way it uses [Soluling's Angular library](https://github.com/soluling/I18N/tree/master/Library/Angular) to load the translations. If no locale was passed the library gets the locale(s) from the browser. At this point the library knows what locale(s) to use. The library tries to find a resource file matching the locale or one of the locale if many locales were detected. If a matching resource was found the library reads it and returns the translations of the resource file. The application then passes the translations to Angular runtime turning the application to use the translations. 
+```c#
+  options.RequestCultureProviders.Clear();
+  options.RequestCultureProviders.Add(new QueryStringRequestCultureProvider());
+  options.RequestCultureProviders.Add(new CookieRequestCultureProvider());
 
-All this is done in `main.ts` file before bootstrapping the application. The rest of the application follows Angular's [internationalization guideline](https://angular.io/guide/i18n). You can read more about Angular localization from [here](https://www.soluling.com/Help/Angular/Index.htm).
+  if (SportModel.UseGeolocation && !string.IsNullOrEmpty(Locator.Key))
+  {
+    SportModel.IpRequestCultureProvider = new IpRequestCultureProvider();
+    options.RequestCultureProviders.Add(SportModel.IpRequestCultureProvider);
+  }
+  else
+  {
+    options.RequestCultureProviders.Add(new AcceptLanguageHeaderRequestCultureProvider());
+  }
+```
+`IpRequestCultureProvider` is a custom culture provider implemented in `IpRequestCultureProvider.cs` file. The class uses ipstack API to perform the geolocation and caches the results, so the application does not need to locate the same IP more than once.
+
+.NET does not have support for plurals. This is why the application uses [Soluling's .NET API](https://github.com/soluling/I18N) to handle plural enabled message strings. Soluling API is a simple .NET Standard API that implements [ICU](http://site.icu-project.org/) message format and includes corresponding [CLDR](http://cldr.unicode.org/) data. 
+
+Learn more about ASP.NET Core localization from [here](https://www.soluling.com/Help/ASP.NETCore/Index.htm).
+

@@ -33,7 +33,7 @@ namespace SportApp
       var result = "en";
 
       if (ip == "::1")
-        return result;  // ip = "178.217.129.234"; // "98.35.25.50";
+        return result;
 
       if (!cache.TryGetValue(ip, out IpLocation location))
       {
