@@ -2,7 +2,7 @@
 
 This repo contains the files for my *Localized Web Applications* session in [LocWorldWide 43](https://locworld.com/locworldwide43-conference-program/). This session shows you various way how you can localize web applications.
 
-`LocalizedWebApplications.pptx` file is the PowerPoint presentation of the session. In addition the repo contains the following samples.
+`LocalizedWebApplications.pptx` file is the PowerPoint presentation of the session. In addition, the repo contains the following samples.
 
 | Sample                                                       | Description                           |
 | ------------------------------------------------------------ | ------------------------------------- |
