@@ -10,7 +10,5 @@ This repo contains the files for my *Localized Web Applications* session in [Loc
 | [Angular](https://github.com/jaska45/LocWorldWide43/tree/main/Angular) | *Angular 11* sample                   |
 | [ASP.NET](https://github.com/jaska45/LocWorldWide43/tree/main/ASP.NET) | *ASP.NET Core 5.0 Razor Pages* sample |
 
-[Soluling localization tool](https://www.soluling.com/) is used in all above samples.
-
 Hope to see you in LocWorldWide 43 on January 27-28 2020!
 
