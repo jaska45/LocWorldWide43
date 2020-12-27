@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { LOCALE_ID, NgModule } from '@angular/core';
 import { registerLocaleData } from '@angular/common';
+import { LocaleService } from '@soluling/angular';
 
 import { AppComponent } from './app.component';
 import { SportComponent } from './sport/sport.component';
@@ -26,7 +27,14 @@ registerLocaleData(ja, 'ja');
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: 
+  [
+    // This service tells us the active locale
+    LocaleService, 
+
+    // Use the locale service to get an active value to LOCALE_ID
+    { provide: LOCALE_ID, deps: [LocaleService], useFactory: (service: LocaleService) => service.localeId },
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

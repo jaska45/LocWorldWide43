@@ -60,7 +60,7 @@ function getDefaultLanguage(key: string): Promise<string>
 getDefaultLanguage(environment.ipStackKey).then(id =>
   {
     // Get translations from assets/i18n folder in the server
-    getTranslationsEx('assets/i18n', { locale: id }).then(translations => 
+    getTranslationsEx('assets/i18n', { locale: id, tryAllLanguages: false }).then(translations => 
       {
         // Load translations
         if (translations)
