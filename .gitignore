@@ -1,6 +1,5 @@
 *.ntr
 *.nds
-*.pptx
 *.log
 
 **/node_modules/
